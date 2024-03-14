@@ -1,0 +1,25 @@
+#edit {
+  // background: url("https://pibig.info/uploads/posts/2022-12/1669965126_25-pibig-info-p-krasivii-zhivoi-fon-krasivo-26.jpg");
+  background: url("https://gas-kvas.com/uploads/posts/2023-03/1678089349_gas-kvas-com-p-krasivie-risunki-na-sinem-fone-20.jpg");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  .edit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid red;
+    width: 600px;
+    height: 480px;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    &--content {
+      font-weight: 600px;
+      color: green;
+      font-size: 60px;
+      margin-top: 30px;
+      font-family: monospace;
+    }
+  }
+}

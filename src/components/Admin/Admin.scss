@@ -1,0 +1,26 @@
+#admin {
+  //   background-color: burlywood;
+  background: url("https://gas-kvas.com/uploads/posts/2023-03/1678089349_gas-kvas-com-p-krasivie-risunki-na-sinem-fone-20.jpg");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  .admin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid grey;
+    width: 600px;
+    height: 480px;
+    border-radius: 10px;
+    position: relative;
+    top: 100px;
+    &--context {
+      font-weight: 600px;
+      color: red;
+      font-size: 60px;
+      margin-top: 30px;
+      font-family: monospace;
+    }
+  }
+}

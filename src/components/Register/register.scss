@@ -1,0 +1,30 @@
+.register {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  &--content {
+    border: 3px solid grey;
+    border-radius: 10px;
+    height: 350px;
+    width: 400px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+        font-weight: 700;
+        font-size: 40px;
+        color: gray;
+    }
+  }
+
+  &--text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
